@@ -1,0 +1,48 @@
+*::after,
+*::before,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+// ===============THE VARIEBLES===============
+$back-color:#F0F0F0;
+$primary-color:#D4533C;
+$secondary-color:#3A3263;
+$box-shadow:2px 2px 3px rgba(0, 0, 0, 0.25);
+$deep-shadow:4px 4px 5px rgba(0, 0, 0, 0.25);
+//===============MEDIA QUERIES VARIEBLES============
+$bigger:62.5em; //1000px
+$big:56.65em; //900px
+$medium:43.75em; //700px
+$medium-2:37.5em; //600px
+$small:31.25em; //500px;
+$smaller:25em; //400px
+html {
+    font-size: 62.5%;
+    @media only screen and (max-width: $bigger) {
+        font-size: 56%;
+    }
+    @media only screen and (max-width: $big) {
+        font-size: 53%;
+    }
+    @media only screen and (max-width: $medium) {
+        font-size: 50%;
+    }
+    @media only screen and (max-width: $medium-2) {
+        font-size: 47%;
+    }
+    @media only screen and (max-width: $small) {
+        font-size: 47%;
+    }
+    @media only screen and (max-width: $smaller) {
+        font-size: 44%;
+    }
+}
+
+body {
+    background-color: $back-color;
+    overflow-x: hidden;
+}
