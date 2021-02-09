@@ -1,6 +1,12 @@
 //FORM SUBMISSION
 window.addEventListener("DOMContentLoaded", function() {
+    //var splide = new Splide('.splide', { type: loop, autoplay: true });
 
+    // splide.on('autoplay:playing', function(rate) {
+    //     console.log(rate); // 0-1
+    // });
+    //splide.mount();
+    new Splide('.splide', { autoplay: true, type: "loop" }).mount();
 
     // get the form elements defined in your form HTML above
 
@@ -69,7 +75,7 @@ let test = {
     descr: "I love what they did withe house it is so clean and well done"
 }
 
-const testimonials = [{ name: "client 1", image: "", descr: "I am speechless," }]
+const testimonials = [{ name: "Mille", image: "", descr: "I am speechless, this is to much" }, { name: "Sphelele", image: "", descr: "Description 2" }]
 
 
 workLink.addEventListener("click", () => {
@@ -126,4 +132,4 @@ document.querySelector(".sidenavbar__icon").addEventListener("click", () => {
 document.querySelector(".remove-display").addEventListener("click", () => {
     document.querySelector(".display-img").style.display = "none"
 
-})
+});

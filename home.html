@@ -11,6 +11,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
+    <!-- or the reference on CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <title>Mabhodisa Kitchen Interior|Kitchen cardboard|Interior Fittings|tiling|interio design in durban</title>
     <meta name="Mabhodisa kitchen interio do kitchen cupboards fittings, interio design in durban.Tiling, ceiling and do bedrooms.We do mordern kitchen interio design">
@@ -234,29 +237,60 @@
         <div class="test-section section-margin">
             <p class="heading">testimonials from our amazing clients</p>
 
-            <div class="test-main">
-                <div class="container">
+            <div class="splide test-main container">
+                <div class="splide__track ">
                     <!--main testimonial -->
-                    <div class="testimonial">
-                        <div class="test-profile">
-                            <img src="Images/man.jpg" alt="testimonials about Mabhodisa-Kitchen-Interior" class="test-profile__image">
-                            <div class="test-profile__name">
-                                <p>John Doe</p>
+                    <ul class="splide__list">
+
+
+                        <li class="testimonial splide__slide">
+                            <div class="test-profile">
+                                <img src="Images/man.jpg" alt="testimonials about Mabhodisa-Kitchen-Interior" class="test-profile__image">
+                                <div class="test-profile__name">
+                                    <p>John Doe</p>
+                                </div>
                             </div>
-                        </div>
+                            <div class="test-descr">
+                                <p class="test-descr__text">"Nice work done MKI at my house, no doubt that i will call them for the next room makeover"</p>
+                            </div>
+                        </li>
 
-                        <div class="test-descr">
-                            <svg class="test-descr__icon test-descr__icon--left">
-                             <use xlink:href="images/sprite.svg#icon-leftArrow"></use>
-                            </svg>
+                        <li class="testimonial splide__slide">
+                            <div class="test-profile">
+                                <img src="Images/man.jpg" alt="testimonials about Mabhodisa-Kitchen-Interior" class="test-profile__image">
+                                <div class="test-profile__name">
+                                    <p>Client 1</p>
+                                </div>
+                            </div>
+                            <div class="test-descr">
+                                <p class="test-descr__text">"Nice work done MKI at my house, no doubt that i will call them for the next room makeover"</p>
+                            </div>
+                        </li>
 
-                            <p class="test-descr__text">"Nice work done MKI at my house, no doubt that i will call them for the next room makeover"</p>
+                        <li class="testimonial splide__slide">
+                            <div class="test-profile">
+                                <img src="Images/man.jpg" alt="testimonials about Mabhodisa-Kitchen-Interior" class="test-profile__image">
+                                <div class="test-profile__name">
+                                    <p>Client 2</p>
+                                </div>
+                            </div>
+                            <div class="test-descr">
+                                <p class="test-descr__text">"Nice work done MKI at my house, no doubt that i will call them for the next room makeover"</p>
+                            </div>
+                        </li>
 
-                            <svg class="test-descr__icon test-descr__icon--right">
-                                <use xlink:href="images/sprite.svg#icon-rightArrow"></use>
-                            </svg>
-                        </div>
-                    </div>
+                        <li class="testimonial splide__slide">
+                            <div class="test-profile">
+                                <img src="Images/man.jpg" alt="testimonials about Mabhodisa-Kitchen-Interior" class="test-profile__image">
+                                <div class="test-profile__name">
+                                    <p>Client 3</p>
+                                </div>
+                            </div>
+                            <div class="test-descr">
+                                <p class="test-descr__text">"Nice work done MKI at my house, no doubt that i will call them for the next room makeover"</p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
 
             </div>
@@ -283,8 +317,9 @@
 
     </footer>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
     <script src="script.js"></script>
+
 </body>
 
 </html>
